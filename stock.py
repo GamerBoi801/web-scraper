@@ -5,7 +5,7 @@ from prettytable import PrettyTable
 import time
 
 # Set up Selenium WebDriver 
-service = Service('path/to/chromedriver')  #ppdate with your path to chromeDriver
+service = Service('/usr/bin/chromedriver')  #ppdate with your path to chromeDriver
 driver = webdriver.Chrome(service=service)
 
 stock_symbols = ['AAPL', 'INTC', 'MSFT', 'NVDA', 'TSLA', 'AMD', 'GOOGL', 'AMZN', 'FB', 'NFLX']
